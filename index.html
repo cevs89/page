@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Carlos Velazquez</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Pagin Persosal de Carlos Velazquez desarrollador web y project manager">
+    <meta name="robots" content="html5, html, css3, css, js, javascript, jquery, base de datos, sql, diseño web, desarrollo web, desarrollo de aplicacion, responsive desing, diseño grafico">
     <!--Import Google Icon Font-->
     <link rel="stylesheet" type="text/css" href="esset/css/_principal.css">
     <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
@@ -11,10 +14,9 @@
     <link rel="stylesheet" type="text/css" href="bower_components/materialize/bin/materialize.css">
     <!--Let browser know website is optimized for mobile-->
   </head>
-
   <body>
-    <div class="section blue-grey darken-4">
-      <div class="col s12 m12 center white-text">
+    <div id="header" class="">
+      <div class="col s12 m12 center white-text header-id section">
         <img src="esset/img/yo.jpg" alt="" width="200px" class="circle responsive-img border z-depth-5">
         <h3>Carlos Velazquez</h3>
         <div class="fixed-action-btn vertical">
@@ -22,27 +24,27 @@
             <i class="large material-icons">menu</i>
           </a>
           <ul>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-linkedin"></i></a></li>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-google-plus"></i></a></li>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-github"></i></a></li>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-bitbucket"></i></a></li>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-skype"></i></a></li>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-telegram"></i></a></li>
-            <li><a class="btn-floating blue darken-4"><i class="fa fa-slack"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100017453349637" target="_blank" class="btn-floating blue darken-4"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/cvelazquez_1" target="_blank" class="btn-floating blue darken-4"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/velazquezcarlos/" target="_blank" class="btn-floating blue darken-4"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://plus.google.com/u/2/112993292871810607507" target="_blank" class="btn-floating blue darken-4"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://github.com/cevs89" target="_blank" class="btn-floating blue darken-4"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://bitbucket.org/cevs/" target="_blank" class="btn-floating blue darken-4"><i class="fa fa-bitbucket"></i></a></li>
+            <li><a onclick="Materialize.toast('User Skype: cvelazquez', 4000)" class="btn-floating blue darken-4"><i class="fa fa-skype"></i></a></li>
+            <li><a onclick="Materialize.toast('Alias Telegram: cevs89', 4000)" class="btn-floating blue darken-4"><i class="fa fa-telegram"></i></a></li>
+            <li><a onclick="Materialize.toast('User Slack: cevs', 4000)" class="btn-floating blue darken-4"><i class="fa fa-slack"></i></a></li>
           </ul>
         </div>
-        <a href="#!" class="btn waves-effect waves-light blue-grey">Project Manager / Frontend Developer</a>
+        <a href="#!" class="btn waves-effect waves-light blue-grey ">Project Manager / Frontend Developer</a>
       </div>
     </div>
     <nav>
       <div class="nav-wrapper blue-grey darken-3">
         <div class="container">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sobre Mi</a></li>
-          <li><a href="badges.html">Portafolio</a></li>
-          <li><a href="collapsible.html">Resumen</a></li>
+          <li><a href="#!">Sobre Mi</a></li>
+          <li><a href="page/portafolio.html" onclick="about()">Portafolio</a></li>
+          <li><a href="page/resumen.html" onclick="about()">Resumen</a></li>
         </ul>
         </div>
       </div>
@@ -50,286 +52,60 @@
     <div class="section white">
       <div class="container">
       <div class="title-page">
-      <i class="material-icons small right blue-text text-darken-4">perm_media</i>
-      <h2 class="blue-text text-darken-4">Portafolio<span class="grey-text"> Casi todo!</span></h2>
-      <p class="grey-text">Si contar los fovores, las paginas que ya no estan <b>up</b> y las otras que no quieres que nadie se entere.</p>
+      <i class="material-icons medium right blue-text text-darken-2 text-sombra">perm_identity</i>
+      <h2 class="blue-text text-darken-4">Sobre Mi</h2>
+      <p class="grey-text">Mi experiencia y lo que se hacer, tratando de no sufrir del sindrome ¡Lo vi una vez y ya soy experto!.</p>
       </div>
+        <div class="row about">
+          <div class="col l12">
+            <p>Hola, <i>¡Soy Carlos!</i> Viviendo en <b>Venezuela</b> desde la Fabrica de ideas. Tengo 8 años en el mundo de la informática y programación.</p>
 
+            <p>Estuve involucrado en algunos proyectos web y algunos otros de escritorio, aun pienso que soy un novato, pero tratando de mejorar cada día. Poseo altos conocimientos en <b>QA/QC, Projetc Manager</b>, manejo de repositorios, creación de aplicaciones web, plataformas online y estructuración de datos.</p>
 
+            <p>Como desarrollador me especializo en el <b>Frontend</b>, queriendo aprender a diario al paso de las nuevas tecnologías.</p>
 
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image">
-                <img src="esset/img/hhc_1.png">
-                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
+            <p>Creyendo diariamente en el liderazgo, las imposiciones y los mandatos creo que son para la vida militar, teniendo en claro que las decisiones de un equipos de trabajo son en <b>equipo</b> y no de una sola persona, mas que en jefes y empleados creo en <b>compañeros</b> y muy importante, <b>hay que delegar</b>, existen personas que hacen tu trabajo, mejor que tu, mas rápido, mas eficiente y la mayoría son jóvenes de 18años.</p>
+          </div>
+         </div>
+          <div class="col l12">
+          <p class="divider"></p>
+            <div class="row">
+            <h5 class="blue-text text-darken-4">More</h5>
+            <div class="col m12 l6">
+              <div class="card blue darken-4 z-depth-5">
+                <div class="card-content white-text">
+                  <span class="card-title">Mi Portafolio <a href="page/portafolio.html"><i class="fa fa-link fa-fw"></i></a></span>
+                  <p>Mira mis últimos desarrollos, enterate que tecnologías fueron usadas y mira el sitio funcional.</p>
               </div>
-              <div class="card-content z-depth-1">
-                <a href="" target="_blank" title="PLatafoma Casino Online">Platafoma Casino Online</a>
-                <p><b>Project Manager / Desarrollo Frontend</b></p>
               </div>
-              <div class="card-reveal">
-            <p class="center"><b>2 Años y medio en el Cargo - Hasta version 2.2</b></p>
-             <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-             <ul>
-               <li>HTML5</li>
-               <li>CSS3</li>
-               <li>JavaScript</li>
-               <li>Jquery</li>
-               <li>Bootstrap 3x</li>
-               <li>AJAX</li>
-               <li>Python 2.7</li>
-               <li>Django 1.9.1</li>
-               <li>Mysql</li>
-               <li>GIT</li>
-             </ul>
-           </div>
+            </div>
+            <div class="col m12 l6">
+              <div class="card blue darken-4 z-depth-5">
+                <div class="card-content white-text">
+                  <span class="card-title">Resumen y Experiencia <a href="page/resumen.html"><i class="fa fa-link fa-fw"></i></a></span>
+                  <p>Cuales es mi experiencia laboral, donde he trabajado y mis skill generales.</p>
+              </div>
+              </div>
             </div>
           </div>
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image">
-                <img src="esset/img/as.png">
-                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-              </div>
-              <div class="card-content z-depth-1">
-                <a href="" target="_blank" title="betcol.club">Plataforma & Sportsbook</a>
-                <p><b>Project Manager / Desarrollo Frontend</b></p>
-              </div>
-              <div class="card-reveal">
-              <p class="center"><b>Desarrollando Actualmente</b></p>
-             <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-             <ul>
-               <li>HTML5</li>
-               <li>CSS3</li>
-               <li>JavaScript</li>
-               <li>Bootstrap 3x</li>
-               <li>Material Desing</li>
-               <li>Bower</li>
-               <li>AJAX</li>
-               <li>Python 3</li>
-               <li>Django 1.10</li>
-               <li>Postgress</li>
-               <li>GIT</li>
-             </ul>
-           </div>
-            </div>
           </div>
 
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/betven.png">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://betven.club/" target="_blank" title="betcol.club">Betven.Club</a>
-               <p><b>Desarrollo Frontend</b></p>
-             </div>
-             <div class="card-reveal">
-            <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>Jquery</li>
-              <li>Bootstrap 3x</li>
-              <li>Bower</li>
-            </ul>
-          </div>
-           </div>
-         </div>
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/ggt.png">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://grupograntepuy.com/" target="_blank" title="Grupo Gran Tepuy">Grupo Gran Tepuy</a>
-               <p><b>Diseño Web</b></p>
-             </div>
-             <div class="card-reveal">
-            <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Bootstrap 3x</li>
-            </ul>
-          </div>
-           </div>
-         </div>
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/betcol.png" class="img-responsive">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://betcol.club/" target="_blank" title="betven.club">Betcol.Club</a>
-               <p><b>Desarrollo Frontend</b></p>
-             </div>
-             <div class="card-reveal">
-            <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>Jquery</li>
-              <li>Bootstrap 3x</li>
-              <li>Bower</li>
-            </ul>
-          </div>
-           </div>
-         </div>
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/hhc.png">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://happyhourcasino.com/" target="_blank" title="betven.club">HappyHourCasino</a>
-               <p><b>Diseño Web</b></p>
-             </div>
-             <div class="card-reveal">
-            <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Bootstrap 3x</li>
-            </ul>
-          </div>
-           </div>
-         </div>
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/gtp.png">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://www.ganatuparley.com/" target="_blank" title="Gana Tu Parlay">Gana Tu Parlay</a>
-               <p><b>Diseño Web</b></p>
-             </div>
-             <div class="card-reveal">
-              <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Bootstrap 3x</li>
-            </ul>
-          </div>
-           </div>
-         </div>
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/vp.png">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://vivaplay.club/" target="_blank" title="Viva Play Club">Viva Play Club</a>
-               <p><b>Diseño Web</b></p>
-             </div>
-             <div class="card-reveal">
-              <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Bootstrap 3x</li>
-            </ul>
-          </div>
-           </div>
-         </div>
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/ca.png">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://clubapuesta.com/" target="_blank" title="Club Apuesta">Club Apuesta</a>
-               <p><b>Diseño Web</b></p>
-             </div>
-             <div class="card-reveal">
-               <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>Bootstrap 3x</li>
-            </ul>
-          </div>
-           </div>
-         </div>
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/selva.png">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://selvacasino.com/" target="_blank" title="SelvaCasino">SelvaCasino</a>
-               <p><b>Diseño Web</b></p>
-             </div>
-             <div class="card-reveal">
-               <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>Bootstrap 3x</li>
-            </ul>
-          </div>
-           </div>
-         </div>
-         <div class="col s6 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="esset/img/sc.png">
-               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-4 activator z-depth-4"><i class="material-icons">add</i></a>
-             </div>
-             <div class="card-content z-depth-1">
-               <a href="http://suerteclub.com/" target="_blank" title="SuerteClub">SuerteClub</a>
-               <p><b>Diseño Web</b></p>
-             </div>
-             <div class="card-reveal">
-               <p class="center"><b>100% Desarrollado</b></p>
-            <span class="card-title grey-text text-darken-4">Tecnologias Utilizadas<i class="material-icons right">close</i></span>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>Bootstrap 3x</li>
-            </ul>
-          </div>
-           </div>
-         </div>
- </div>
       </div>
+
     </div>
     <footer class="page-footer grey darken-4">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">Informacion</h5>
-            <p class="grey-text text-lighten-4">la informacion encontrada en esta pagina es de referencia y demostracion, el profesional nombrado aqui no hace publicidad de los sitios de cliente (a menos que se lo pidan)</p>
+            <p class="grey-text text-lighten-4">Esta pagina esta desarrollada con  <span class="chip blue white-text">HTML5</span>, <span class="chip blue white-text">CSS3</span><span class="chip blue white-text">JavaScript</span><span class="chip blue white-text">Materialize</span> y <span class="chip blue white-text">Bower</span> y esta el <span class="chip blue white-text">Github</span></p>
             <p class="grey-text text-lighten-4 center">Por ahora no usamos galletas <i class="material-icons tiny">thumb_up</i></p>
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">¡Donde encontrarme!</h5>
             <ul class="white-text">
               <li>Caracas, Venezuela</li>
-              <li>+58 130 6485</li>
+              <li>+58 412 130 6485</li>
               <li>cevsinformatica@gmail.com</li>
               <li>O mejor</li>
               <li>dale a ese boton <i class="fa fa-arrow-right"></i></li>
@@ -340,19 +116,12 @@
       <div class="footer-copyright grey darken-3">
         <div class="container">
         © 2017 Copyright Carlos Velazquez
-        <a class="grey-text text-lighten-4 right" href="#!">Quiza puedas ir arriba <i class="fa fa-chevron-up"></i></a>
+        <a href="#!"class="grey-text text-lighten-4 right" onclick="Materialize.toast('Dije QUIZA', 3000, 'rounded')">Quiza puedas ir arriba <i class="fa fa-chevron-up"></i></a>
         </div>
       </div>
     </footer>
-
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/materialize/bin/materialize.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-    //
-    </script>
   </body>
 </html>
