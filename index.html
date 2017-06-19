@@ -41,10 +41,16 @@
     <nav>
       <div class="nav-wrapper blue-grey darken-3">
         <div class="container">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#!">Sobre Mi</a></li>
-          <li><a href="page/portafolio.html" onclick="about()">Portafolio</a></li>
-          <li><a href="page/resumen.html" onclick="about()">Resumen</a></li>
+          <li><a href="page/portafolio.html">Portafolio</a></li>
+          <li><a href="page/resumen.html">Resumen</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#!">Sobre Mi</a></li>
+          <li><a href="page/portafolio.html">Portafolio</a></li>
+          <li><a href="page/resumen.html">Resumen</a></li>
         </ul>
         </div>
       </div>
@@ -123,5 +129,7 @@
     <!--Import jQuery before materialize.js-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/materialize/bin/materialize.js"></script>
+    <script src="esset/js/file.js"></script>
+
   </body>
 </html>
