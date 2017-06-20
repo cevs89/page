@@ -38,19 +38,19 @@
         <a href="#!" class="btn waves-effect waves-light blue-grey ">Project Manager / Frontend Developer</a>
       </div>
     </div>
-    <nav>
+    <nav id="resumen">
       <div class="nav-wrapper blue-grey darken-3">
         <div class="container">
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="../index.html">Sobre Mi</a></li>
-          <li><a href="portafolio.html">Portafolio</a></li>
-          <li><a href="#!">Resumen</a></li>
+          <li><a href="portafolio.html#portafolio">Portafolio</a></li>
+          <li><a href="#!" onclick="Materialize.toast('¡Ya estas aquí!', 2000)">Resumen</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="../index.html">Sobre Mi</a></li>
-          <li><a href="portafolio.html">Portafolio</a></li>
-          <li><a href="#!">Resumen</a></li>
+          <li><a href="portafolio.html#portafolio">Portafolio</a></li>
+          <li><a href="#!" onclick="Materialize.toast('¡Ya estas aquí!', 2000)">Resumen</a></li>
         </ul>
         </div>
       </div>
@@ -170,6 +170,9 @@
             </div>
           </div>
        </div>
+       <p class="divider"></p>
+       <a href="portafolio.html#portafolio" class="btn waves-effect waves-light btn-large indigo z-depth-5">Portafolio<i class="material-icons right">perm_media</i></a>
+        <a href="../index.html" class="btn waves-effect waves-light btn-large indigo right z-depth-5"><i class="material-icons left">perm_identity</i>Sobre Mi</a>
       </div>
     </div>
     <footer class="page-footer grey darken-4">
@@ -177,7 +180,7 @@
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">Informacion</h5>
-            <p class="grey-text text-lighten-4">Esta pagina esta desarrollada con  <span class="chip blue white-text">HTML5</span>, <span class="chip blue white-text">CSS3</span><span class="chip blue white-text">JavaScript</span><span class="chip blue white-text">Materialize</span> y <span class="chip blue white-text">Bower</span> y esta el <span class="chip blue white-text">Github</span></p>
+            <p class="grey-text text-lighten-4">Esta pagina esta desarrollada con  <span class="chip blue white-text">HTML5</span>, <span class="chip blue white-text">CSS3</span><span class="chip blue white-text">JavaScript</span><span class="chip blue white-text">Materialize</span><span class="chip blue white-text">Bower</span> y esta el <span class="chip blue white-text">Github</span></p>
             <p class="grey-text text-lighten-4 center">Por ahora no usamos galletas <i class="material-icons tiny">thumb_up</i></p>
           </div>
           <div class="col l4 offset-l2 s12">
@@ -193,9 +196,9 @@
         </div>
       </div>
       <div class="footer-copyright grey darken-3">
-        <div class="container">
+        <div class="container center">
         © 2017 Copyright Carlos Velazquez
-        <a href="#!"class="grey-text text-lighten-4 right" onclick="Materialize.toast('Dije Quizá', 3000, 'rounded')">Quizá puedas ir arriba <i class="fa fa-chevron-up"></i></a>
+        <a href="#!"class="grey-text text-lighten-4 right display" onclick="Materialize.toast('Dije Quizá', 3000, 'rounded')">Quizá puedas ir arriba <i class="fa fa-chevron-up"></i></a>
         </div>
       </div>
     </footer>

@@ -32,3 +32,6 @@ background-size: cover;}
 .about{text-align: justify; line-height: 32px;}
 .text-sombra{text-shadow: 3px 2px 4px #888;}
 .bold{font-weight: bold;}
+@media only screen and (max-width: 992px) {
+  .display{display: none;}
+}
